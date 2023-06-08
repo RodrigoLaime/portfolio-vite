@@ -1,0 +1,23 @@
+import React from 'react'
+import { HashRouter, Routes, Route } from 'react-router-dom'
+
+import Body from './home/Body'
+import Header from './home/Header'
+import Footer from './home/Footer'
+import Menu from './components/Menu'
+const App = () => {
+  return (
+    <HashRouter>
+      <Menu/>
+      <Header />
+      <Body />
+      <Footer />
+      <Routes>
+        <Route path='/' element={''} />
+        <Route path='*' element={<p>Not Found</p>} />
+      </Routes>
+    </HashRouter>
+  )
+}
+
+export default App
