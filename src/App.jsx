@@ -1,16 +1,17 @@
 import React from 'react'
 import { HashRouter, Routes, Route } from 'react-router-dom'
+// import '../src/styles/style.css'
 
-import Body from './home/Body'
+import Main from './home/Main'
 import Header from './home/Header'
 import Footer from './home/Footer'
 import Menu from './components/Menu'
 const App = () => {
   return (
     <HashRouter>
-      <Menu/>
+      <Menu />
       <Header />
-      <Body />
+      <Main />
       <Footer />
       <Routes>
         <Route path='/' element={''} />
