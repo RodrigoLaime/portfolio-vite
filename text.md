@@ -7,3 +7,8 @@
 
 ## route
 npm i react-router-dom
+
+
+## Para activar el modo oscuro y el modo claro instalamos las dependencias
+npm i styled-components
+npm i react-icons

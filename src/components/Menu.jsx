@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-// import './menu-icon.css'
 import '../styles/menu.css'
 import '../styles/menu.icon.css'
 
@@ -41,7 +40,7 @@ const Menu = () => {
   return (
     <div className='container-nav'>
       <nav className='menu-nav' id='menu-nav'>
-        <h4 className='menu-h4'> <span> PORTFOLIO</span> | RODRIGO</h4>
+        <h4 className='menu-h4'><i className="fa-solid fa-bolt-lightning"></i> <span>RODRIGO</span></h4>
 
         <div className='container-icon-menu'>
           <div onClick={click} className='menu1' id='menu1'>
@@ -101,6 +100,7 @@ const Menu = () => {
                 </NavLink>
               </div>
             ))}
+            <div>fasdfas</div>
             <li className='follow'>
               <a href="#"><i className="fa-solid fa-envelope"></i></a>
               <a href="#"><i className="fa-brands fa-twitter"></i></a>
