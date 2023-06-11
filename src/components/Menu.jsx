@@ -39,7 +39,7 @@ const Menu = () => {
 
   const changeBackfround = () => {
     // console.log(window.scrollY)
-    if(window.scrollY >= 15){
+    if(window.scrollY >= 2){
       setNavbarMenu(true)
     } else {
       setNavbarMenu(false)

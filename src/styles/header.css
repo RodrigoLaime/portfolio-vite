@@ -1,5 +1,5 @@
 .header {
-    height: 1000px;
+    /* height: 1000px; */
     padding-top: 100px;
 }
 
@@ -7,16 +7,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     padding: 0 30px;
 }
 
-.header-text {
-    /* background-color: saddlebrown; */
-}
+/* .header-text {
+    background-color: saddlebrown;
+} */
 
 .header-text h1 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 10vw;
     font-weight: 600;
 }
 
@@ -26,6 +26,40 @@
     background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.header-text div ul li {
+    font-size: 1rem;
+    list-style: none;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.header-text div .header-button {
+    text-decoration: none;
+    color: white;
+}
+
+.header-text div .header-button .a-header {
+    background-color: #32d9cb;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px auto;
+    margin-bottom: 70px;
+    border: 2px solid #00FFFF;
+    width: 100%;
+    max-width: 575px;
+    min-width: 250px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+
+.header-text div .header-button .a-header:hover {
+    box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
 }
 
 /* .container-logo {
@@ -57,7 +91,7 @@
 }
 
 /* library */
-.custom-shape-divider-bottom-1686412443 {
+/* .custom-shape-divider-bottom-1686412443 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -76,11 +110,27 @@
 
 .custom-shape-divider-bottom-1686412443 .shape-fill {
     fill: white
-        /* fill: #252529 */
+} */
+
+@media (min-width: 575px) {
+    .header-text h1 {
+        /* font-size: 3rem; */
+        /* font-size: 7vh; */
+        font-size: 6vw;
+    }
+
+    .header-text div .header-button .a-header {
+        max-width: 300px;
+    }
 }
 
 @media (min-width: 775px) {
     .container-header {
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-text div .header-button .a-header {
+        margin: 15px 0;
     }
 }

@@ -12,7 +12,8 @@
 .scroll-y {
   background-color: #1e1e20;
 }
-.scrollY-mobil{
+
+.scrollY-mobil {
   background-color: #1e1e20;
 }
 
@@ -97,12 +98,28 @@
 
   /* menu desktop #################################################### */
   .menu-desktop {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 
   .menu-desktop .menu-ul {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+  }
+
+  .menu-desktop .menu-ul .menu-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-in-out;
+    /* background-color: saddlebrown; */
+    padding: 5px;
+  }
+
+  .menu-desktop .menu-ul .menu-li:hover {
+    border-bottom: 2px solid #00FFFF;
   }
 
   .menu-desktop .menu-ul .menu-li .menu-a {
