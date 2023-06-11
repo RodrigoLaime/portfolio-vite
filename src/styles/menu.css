@@ -127,3 +127,9 @@
     color: white;
   }
 }
+
+@media (min-width: 775px){
+  .container-nav{
+    padding: 25px 50px;
+  }
+} 
