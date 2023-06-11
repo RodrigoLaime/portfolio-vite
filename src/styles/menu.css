@@ -6,7 +6,13 @@
   width: 100%;
   max-width: 100%;
   min-width: 320px;
-  /* border-bottom: 2px solid white; */
+  transition: .3s ease-in-out;
+}
+
+.scroll-y {
+  background-color: #1e1e20;
+}
+.scrollY-mobil{
   background-color: #1e1e20;
 }
 
@@ -17,12 +23,14 @@
 
 .menu-nav .menu-h4 {
   font-size: 20px;
-  /* background-color: salmon; */
+}
+
+.menu-nav .menu-h4 .logo-one {
   background: #00FF00;
   background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  margin-right: 5px;
 }
 
 /* menu desktop #################################################3*/
@@ -32,7 +40,7 @@
 
 /* menu mobil  #################################################3*/
 .container-menu--mobil {
-  border-top: 2px solid #52525952;;
+  border-top: 2px solid #52525952;
   margin-top: 25px;
   position: absolute;
   left: -100%;
@@ -44,10 +52,10 @@
 }
 
 .container-mobil {
-  padding: 25px 0;
+  padding: 25px;
   width: 100%;
-  max-width: 350px;
-  min-width: 260px;
+  max-width: 400px;
+  min-width: 250px;
   margin: 0 auto;
 }
 
@@ -56,12 +64,14 @@
   flex-direction: column;
   /* background-color: red; */
 }
-.container-mobil ul .menu-li-mobil{
+
+.container-mobil ul .menu-li-mobil {
   /* background-color: salmon; */
   padding: 25px 5px;
   text-align: left;
   border-bottom: 1px solid #52525952;
 }
+
 .container-mobil ul .menu-li-mobil .a-mobil {
   text-decoration: none;
   font-weight: 600;
@@ -79,7 +89,6 @@
 
 
 
-
 /* mediaquery ######################################################## */
 @media (min-width: 575px) {
   .container-menu--mobil {
@@ -93,7 +102,7 @@
 
   .menu-desktop .menu-ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
   }
 
   .menu-desktop .menu-ul .menu-li .menu-a {

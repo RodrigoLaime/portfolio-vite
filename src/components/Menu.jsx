@@ -23,7 +23,7 @@ routes.push({
 
 const Menu = () => {
 
-  const [desplazar, setDesplazar] = useState(true);
+  const [navbarMenu, setNavbarMenu] = useState(false);
 
 
   const click = () => {
@@ -33,14 +33,25 @@ const Menu = () => {
     const navM = document.getElementById('navM');
     navM.classList.toggle('desplazar-menu')
 
-    const menuN = document.getElementById('menu-nav')
-    menuN.classList.toggle('transparent')
+    const menuN = document.getElementById('menuN')
+    menuN.classList.toggle('scrollY-mobil')
   }
 
+  const changeBackfround = () => {
+    // console.log(window.scrollY)
+    if(window.scrollY >= 15){
+      setNavbarMenu(true)
+    } else {
+      setNavbarMenu(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeBackfround);
+
   return (
-    <div className='container-nav'>
+    <div id='menuN' className={navbarMenu ? 'container-nav scroll-y' : 'container-nav'}>
       <nav className='menu-nav' id='menu-nav'>
-        <h4 className='menu-h4'><i className="fa-solid fa-bolt-lightning"></i> <span>RODRIGO</span></h4>
+        <h4 className='menu-h4'><a className='logo-one' href="/"><i className="fa-solid fa-bolt-lightning"></i></a> PORTAFOLIO</h4>
 
         <div className='container-icon-menu'>
           <div onClick={click} className='menu1' id='menu1'>
@@ -85,7 +96,7 @@ const Menu = () => {
           <ul>
             {routes.map(route => (
               <div
-                
+
                 key={route.text}
                 className='menu-li-mobil'>
                 <NavLink

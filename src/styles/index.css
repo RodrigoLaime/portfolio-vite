@@ -1,7 +1,7 @@
 :root {
   font-family: 'Inter', sans-serif;
   line-height: 1.5;
-  
+
   color: rgba(255, 255, 255, 0.87);
   background-color: #1e1e20;
   /* background-color: #242424; */
@@ -12,6 +12,19 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   /* margin: 0 20px; */
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    /* Ancho de la barra de desplazamiento */
+    background-color: #52525952;
+    /* background-color: transparent; */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #1e1e20;
+    border-radius: 100px;
+    /* background-color: transparent; */
+  }
 }
 
 * {
