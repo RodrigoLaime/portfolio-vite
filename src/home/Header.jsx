@@ -13,18 +13,27 @@ const Header = () => {
             <h1>Best design for your <br /> <span>DIGITAL PRODUCTS.</span></h1>
             <ul>
               {/* <li>Hello I am Laime Rodrigo front-end developer</li> */}
-              <li>Desing technology | Art of design |</li>
-              <li>UI and UX design</li>
+              <li>Desing technology | Art of design | UI and UX design</li>
             </ul>
-            <Link className='header-button' to={'/'}>
-              <div className='a-header'>
-                MORE
-              </div>
-            </Link>
+            <div className='container-button-header'>
+              <Link className='header-button' to={'/'}>
+                <div className='a-header'>
+                  CONTACT
+                </div>
+              </Link>
+              <Link className='header-button' to={'/'}>
+                <div className='a-header'>
+                  MY JOBS
+                </div>
+              </Link>
+            </div>
           </div>
         </section>
         <section className='container-logo'>
-          <div className='logo-header'><a className='logo-a' href="#"><i className="fa-solid fa-bolt-lightning"></i></a></div>
+          <div className='logo-header'>
+            <a className='logo-a' href="#"><i className="fa-solid fa-bolt-lightning"></i></a>
+            <a className='logo-a-two' href="#"><i className="fa-solid fa-bolt-lightning"></i></a>
+          </div>
         </section>
       </div>
       {/* <div className='horizont-header'>

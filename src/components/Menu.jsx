@@ -51,7 +51,7 @@ const Menu = () => {
   return (
     <div id='menuN' className={navbarMenu ? 'container-nav scroll-y' : 'container-nav'}>
       <nav className='menu-nav' id='menu-nav'>
-        <h4 className='menu-h4'><a className='logo-one' href="/"><i className="fa-solid fa-bolt-lightning"></i></a> PORTAFOLIO</h4>
+        <h4 className='menu-h4'><a className='logo-one' href="/"><i className="fa-solid fa-bolt-lightning"></i></a> RODRIGO</h4>
 
         <div className='container-icon-menu'>
           <div onClick={click} className='menu1' id='menu1'>

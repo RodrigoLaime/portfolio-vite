@@ -1,92 +1,89 @@
 .header {
-    /* height: 1000px; */
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .container-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
 }
 
-/* .header-text {
-    background-color: saddlebrown;
-} */
-
 .header-text h1 {
-    /* font-size: 3rem; */
-    font-size: 10vw;
-    font-weight: 600;
+  font-size: 10vw;
+  font-weight: 600;
+  padding: 0 45px;
+  text-align: center;
 }
 
 .header-text h1 span {
-    font-weight: bold;
-    background: #00FF00;
-    background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  background: #00FF00;
+  background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header-text div ul li {
-    font-size: 1rem;
-    list-style: none;
-    padding: 10px 0;
-    font-weight: 600;
+  font-size: 1rem;
+  list-style: none;
+  padding: 10px 45px;
+  text-align: center;
+  color: #ebebf599;
+  font-weight: 600;
 }
 
 .header-text div .header-button {
-    text-decoration: none;
-    color: white
+  text-decoration: none;
+  color: white
 }
 
 .header-text div .header-button .a-header {
-    background-color: #32d9cb;
-    padding: 15px;
-    border-radius: 10px;
-    margin: 15px auto;
-    margin-bottom: 70px;
-    border: 2px solid #00FFFF;
-    width: 100%;
-    max-width: 575px;
-    min-width: 250px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.5s ease;
+  background-color: #1e1e20;
+  padding: 10px;
+  border-radius: 100px;
+  margin: 15px auto;
+  margin-bottom: 30px;
+  border: 2px solid #00ffea;
+  width: 100%;
+  /* max-width: 575px; */
+  min-width: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s ease;
 }
 
-.header-text div .header-button .a-header:hover {
-    box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
-    -webkit-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
+.header-text div .header-button .a-header:active {
+  background-color: #00ffea;
 }
-
-/* .container-logo {
-    width: 100%;
-    position: relative;
-} */
 
 .logo-header {
-    background: #32d9cb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    box-shadow: 0px 0px 200px 0px rgba(0, 255, 255, 0.75);
-    -webkit-box-shadow: 0px 0px 200px 0px rgba(0, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 200px 0px rgba(0, 255, 255, 0.75);
-    z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  position: relative;
 }
 
 .logo-header .logo-a {
-    background: #00FF00;
-    background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 10rem;
+  /* este agrega sombra a imagenes png
+    filter: drop-shadow(20px, 20px, 20px rgba(255, 255, 255, 0.75)); */
+  text-shadow: 3px 3px 0px#00ffff00,
+    -10px -10px 130px #00FFFF,
+    10px 10px 130px #00FFFF;
+  font-size: 10rem;
+}
+
+.logo-header .logo-a-two {
+  position: absolute;
+  font-size: 10rem;
+  background: #00FF00;
+  background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* library */
@@ -116,32 +113,78 @@
     fill: #252529
 } */
 
+@media (min-width: 375px) {
+  .container-button-header {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 575px) {
-    .header-text h1 {
-        /* font-size: 3rem; */
-        /* font-size: 7vh; */
-        font-size: 6vw;
-    }
+  .header-text h1 {
+    font-size: 6vw;
+  }
 
-    .header-text div ul li {
-        font-size: 20px;
-    }
+  .header-text div ul li {
+    font-size: 20px;
+  }
 
-    .header-text div .header-button .a-header {
-        max-width: 300px;
-    }
+  .header-text div .header-button .a-header {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .header-text div .header-button .a-header:hover {
+    box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
+  }
+
+  .logo-header .logo-a {
+    font-size: 14rem;
+  }
+
+  .logo-header .logo-a-two {
+    font-size: 14rem;
+  }
 }
 
 @media (min-width: 775px) {
-    /* s */
-    .container-header {
-        padding: 0 50px;
-        padding-bottom: 100px;
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
-    .header-text div .header-button .a-header {
-        margin: 15px 0;
-    }
+  .container-header {
+    padding: 0 50px;
+    padding-bottom: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-text h1 {
+    padding: 0;
+    text-align: left;
+  }
+
+  .header-text div ul li {
+    padding: 10px 100px 15px 0px;
+    text-align: left;
+  }
+
+  .container-button-header {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+  }
+
+  .header-text div .header-button .a-header {
+    margin: 15px 0;
+  }
+}
+
+
+@media (min-width: 1150px) {
+  .header-text h1 {
+    font-size: 4.2rem;
+  }
 }
