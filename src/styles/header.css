@@ -82,12 +82,12 @@
   margin-bottom: 30px;
   border: 2px solid #ebebf599;
   width: 100%;
-  /* max-width: 575px; */
   min-width: 150px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
   transition: 0.5s ease;
+
 }
 
 .header-text div .header-button .a-header:active {
@@ -121,33 +121,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-/* library */
-/* .horizont-header{
-    width: 100%;
-    position: relative;
-}
-.custom-shape-divider-bottom-1686412443 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: 1;
-}
-
-.custom-shape-divider-bottom-1686412443 svg {
-    position: relative;
-    display: block;
-    width: calc(288% + 1.3px);
-    height: 126px;
-    
-}
-
-.custom-shape-divider-bottom-1686412443 .shape-fill {
-    fill: #252529
-} */
 
 @media (min-width: 375px) {
   .container-button-header {

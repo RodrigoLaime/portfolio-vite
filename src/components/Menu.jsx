@@ -9,7 +9,7 @@ routes.push({
   text: 'Home'
 })
 routes.push({
-  to: '/about',
+  to: 'main-about',
   text: 'About'
 })
 routes.push({
@@ -24,7 +24,6 @@ routes.push({
 const Menu = () => {
 
   const [navbarMenu, setNavbarMenu] = useState(false);
-
 
   const click = () => {
     const menu1 = document.getElementById('menu1')
@@ -71,17 +70,14 @@ const Menu = () => {
               <div
                 key={route.text}
                 className='menu-li'
-                id='menu-li'
-              >
+                id='menu-li'>
                 <NavLink
                   className='menu-a'
-
                   key={routes.text}
                   style={({ isActive }) => ({
                     color: isActive ? ' #fffffaa2' : '',
                   })}
-                  to={route.to}
-                >
+                  to={route.to}>
                   {route.text}
                 </NavLink >
               </div >

@@ -65,11 +65,9 @@
 .container-mobil ul {
   display: flex;
   flex-direction: column;
-  /* background-color: red; */
 }
 
 .container-mobil ul .menu-li-mobil {
-  /* background-color: salmon; */
   padding: 25px 5px;
   text-align: left;
   border-bottom: 1px solid #52525952;
@@ -79,7 +77,6 @@
   text-decoration: none;
   font-weight: 600;
   color: white;
-  /* background-color: saddlebrown; */
 }
 
 /* Functions-css #################################################*/
@@ -116,7 +113,6 @@
     width: 70px;
     border-bottom: 2px solid transparent;
     transition: 0.5s ease-in-out;
-    /* background-color: saddlebrown; */
     padding: 5px;
   }
 
