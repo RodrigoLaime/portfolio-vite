@@ -17,7 +17,7 @@ const Main = () => {
         <article className='main-text--about'>
           <h4>Who am i?</h4>
           <h3>i'm Web developer</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolore incidunt. Quo nostrum quis odio dignissimos amet, fuga beatae accusantium. Voluptas libero iure aperiam voluptatem temporibus repellat laborum tempore aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam corporis facere, id dolor maiores quidem architecto dolore laborum optio rem animi vitae saepe illum sapiente ex sunt dolorum necessitatibus.</p>
+          <p>Soy un apasionado desarrollador web con experiencia en la creación de soluciones digitales innovadoras, especializado en el diseño centrado en el usuario. Mi enfoque se basa en la creatividad, los detalles y la creación de experiencias web atractivas y de alto rendimiento.</p>
           <ul>
             <li></li>
           </ul>
