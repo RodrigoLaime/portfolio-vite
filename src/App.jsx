@@ -8,7 +8,8 @@ import Footer from './home/Footer'
 import Menu from './components/Menu'
 const App = () => {
   return (
-    <HashRouter className='app'>
+    <div className='app'>
+      <HashRouter >
       <Menu />
       <Header />
       <Main />
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='*' element={<p>Not Found</p>} />
       </Routes>
     </HashRouter>
+    </div>
   )
 }
 

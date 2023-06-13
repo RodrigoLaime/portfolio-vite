@@ -1,5 +1,9 @@
 .header {
-  padding-top: 100px;
+  padding-top: 150px;
+  width: 100%;
+  max-width: 1250px;
+  min-width: 250px;
+  margin: 0 auto;
 }
 
 .container-header {

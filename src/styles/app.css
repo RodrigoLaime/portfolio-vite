@@ -1,6 +1,12 @@
 .app {
-    /* position: relative; */
     font-family: 'Inter', sans-serif;
     color: #fffff5db;
     overflow-x: hidden;
+    /* background-color: red; */
 }
+
+/* @media (min-width: 1150px) {
+  .app {
+    padding: 0 10%;
+  }
+} */
