@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/main.css'
+import ilustracion from '../img/undraw_real_time_sync_re_nky7.svg'
 
 const Main = () => {
   return (
@@ -11,7 +12,11 @@ const Main = () => {
         </div>
       </section>
       <section className='container-about-main'>
-        
+
+        <article className='main-img'>
+          <img src={ilustracion} className='img' alt="" />
+        </article>
+
         <article className='main-text--about'>
           <h4>Who am i?</h4>
           <h3>i'm Web developer</h3>
@@ -27,11 +32,9 @@ const Main = () => {
           <div></div>
         </article>
 
-        <article className='main-img'>
-          <div className='img'></div>
-        </article>
+
       </section>
-      <section></section>
+      <section className='pepe'></section>
     </main>
   )
 }

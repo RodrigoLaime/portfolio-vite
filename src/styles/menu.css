@@ -20,6 +20,10 @@
 .menu-nav {
   display: flex;
   justify-content: space-between;
+    width: 100%;
+      max-width: 1250px;
+      min-width: 320px;
+      margin: 0 auto;
 }
 
 .menu-nav .menu-h4 {
@@ -130,4 +134,9 @@
   .container-nav{
     padding: 25px 50px;
   }
+} 
+@media (min-width: 1250px){
+  .menu-nav {
+      padding: 0 50px;
+    }
 } 
