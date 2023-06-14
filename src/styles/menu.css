@@ -1,5 +1,5 @@
 .container-nav {
-  padding: 25px;
+  padding: 25px 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -20,10 +20,11 @@
 .menu-nav {
   display: flex;
   justify-content: space-between;
-    width: 100%;
-      max-width: 1250px;
-      min-width: 320px;
-      margin: 0 auto;
+  width: 100%;
+  max-width: 1250px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
 .menu-nav .menu-h4 {
@@ -130,13 +131,14 @@
   }
 }
 
-@media (min-width: 775px){
-  .container-nav{
+@media (min-width: 775px) {
+
+  /* .container-nav{
     padding: 25px 50px;
-  }
-} 
-@media (min-width: 1250px){
+  } */
   .menu-nav {
-      padding: 0 50px;
-    }
-} 
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1250px) {}
