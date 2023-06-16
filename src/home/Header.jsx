@@ -10,9 +10,9 @@ const Header = () => {
       <div className='container-header'>
         <section className='header-text'>
           <div>
-            <h1 className='text-focus-in'>Best design for your <br /> <span>DIGITAL PRODUCTS.</span></h1>
+            <h1 className='text-focus-in'>RODRIGO LAIME<br /> <span>WEB DEVELOPER.  </span></h1>
+            {/* <h1 className='text-focus-in'>Best design for your <br /> <span>DIGITAL PRODUCTS.</span></h1> */}
             <ul>
-              {/* <li>Hello I am Laime Rodrigo front-end developer</li> */}
               <li>Desing technology | Art of design | UI and UX design</li>
             </ul>
             <div className='container-button-header'>

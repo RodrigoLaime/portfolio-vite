@@ -1,13 +1,57 @@
 .main {
-  /* height: 100vh; */
-  /* background-color: seagreen; */
   width: 100%;
   max-width: 1250px;
   min-width: 250px;
   margin: 0 auto;
 }
 
-.container-intro-main {
+.container-main--intro {
+  /* background: rgb(0, 255, 0);
+  background: linear-gradient(330deg, rgba(0, 255, 0, 1) 0%, rgba(0, 255, 255, 1) 100%); */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  animation: cambio-gradient 5s infinite;
+  background-size: 200% 200%;
+}
+
+/* .container-main--intro:hover {
+  animation: cambio-gradient 5s infinite;
+  background-size: 200% 200%;
+} */
+
+@keyframes cambio-gradient {
+  0% {
+    background-position: 0% 50%;
+    /* Posición inicial del gradiente */
+  }
+
+  50% {
+    background-position: 100% 50%;
+    /* Posición a la mitad de la animación */
+  }
+
+  100% {
+    background-position: 0% 50%;
+    /* Posición final del gradiente */
+  }
+}
+
+/* Estilos del gradiente */
+.container-main--intro {
+  background-image: linear-gradient(to right, rgba(0, 255, 255, 1), #00ff00, rgba(0, 255, 255, 1));
+}
+
+.container-main--intro h1 {
+  font-size: 6vw;
+  font-weight: 800;
+  padding: 10px 0;
+  color: #1E1E20;
+}
+
+/* .container-intro-main {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -21,7 +65,7 @@
 .container-intro-main div h3 {
   font-size: 2.5rem;
   color: #ebebf599;
-}
+} */
 
 /* Section 2 main ######################################### */
 .container-about-main {
@@ -36,7 +80,6 @@
   width: 100%;
   max-width: 500px;
   min-width: 250px;
-  /* background-color: rgb(110, 18, 7); */
   margin: 0 auto;
 }
 
@@ -58,20 +101,23 @@
   font-size: 14px;
   padding-top: 5px;
   color: #ebebf599;
-  /* color: #f3cb1a; */
+}
+
+.container-about-main {
+  margin-bottom: 100px;
 }
 
 .main-img {
   width: 100%;
   max-width: 350px;
   min-width: 250px;
-  max-height: 350px;
-  min-height: 250px;
+  /* max-height: 350px; */
+  /* min-height: 250px; */
+  height: 250px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 
 .main-img .img {
