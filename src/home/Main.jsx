@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/main.css'
-import ilustracion from '../img/undraw_real_time_sync_re_nky7.svg'
+// import ilustracion from '../img/undraw_real_time_sync_re_nky7.svg'
+import ilustracion from '../img/undraw_trendy_interface_re_xsou.svg'
 
 const Main = () => {
   return (

@@ -58,6 +58,7 @@
   font-size: 14px;
   padding-top: 5px;
   color: #ebebf599;
+  /* color: #f3cb1a; */
 }
 
 .main-img {
@@ -80,6 +81,7 @@
 
 /* section 3 main ########################################3 */
 .pepe {
+  padding-top: 100px;
   width: 100%;
   height: 200px;
   background-color: #1E1E20;
@@ -110,7 +112,7 @@
     justify-content: center;
   }
 
-  .main-img{
+  .main-img {
     margin-bottom: 0;
   }
 
