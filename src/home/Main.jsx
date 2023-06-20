@@ -2,7 +2,8 @@ import React from 'react'
 import '../styles/main.css'
 // import ilustracion from '../img/undraw_real_time_sync_re_nky7.svg'
 // import ilustracion from '../img/undraw_trendy_interface_re_xsou.svg'
-import ilustracion from  '../img/undraw_personal_info_re_ur1n.svg'
+// import ilustracion from  '../img/undraw_personal_info_re_ur1n.svg'
+import ilustracion from  '../img/undraw_programming_re_kg9v.svg'
 
 const Main = () => {
   return (
@@ -34,9 +35,8 @@ const Main = () => {
             <li></li>
           </ul>
           <div></div> */}
-          <div className=''>
-            <h4>PASSIONATE | CREATIVE</h4>
-            <h4></h4>
+          <div className='i'>
+            <h4>PROGRAMMING | PASSIONATE | CREATIVE</h4>
           </div>
         </article>
 
