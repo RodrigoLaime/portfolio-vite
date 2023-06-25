@@ -1,9 +1,7 @@
 import React from 'react'
 import '../styles/main.css'
-// import ilustracion from '../img/undraw_real_time_sync_re_nky7.svg'
-// import ilustracion from '../img/undraw_trendy_interface_re_xsou.svg'
-// import ilustracion from  '../img/undraw_personal_info_re_ur1n.svg'
-import ilustracion from  '../img/undraw_programming_re_kg9v.svg'
+import ilustracion from '../img/undraw_programming_re_kg9v.svg'
+import ilustracion2 from '../img/undraw_progressive_app_m-9-ms (1).svg'
 
 const Main = () => {
   return (
@@ -40,9 +38,28 @@ const Main = () => {
           </div>
         </article>
 
+      </section>
+
+      <section className='container-about-main'>
+
+        <article className='main-text--about text-about-two'>
+          <h4>About me</h4>
+          <h3><span>what</span> I do</h3>
+          <p>
+            I am a passionate web developer with experience creating innovative digital solutions, specializing in user-centered design. My approach is based on creativity, details and creating high-performing and engaging web experiences.
+          </p>
+          <div className='i'>
+            <h4>PROGRAMMING | PASSIONATE | CREATIVE</h4>
+          </div>
+        </article>
+
+        <article className='main-img main-img-two'>
+          <img src={ilustracion2} className='img' alt="" />
+        </article>
 
       </section>
-      <section className='pepe'></section>
+
+      {/* <section className='pepe'></section> */}
     </main>
   )
 }

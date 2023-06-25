@@ -124,6 +124,7 @@
   background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px black;
 }
 
 @media (min-width: 375px) {
