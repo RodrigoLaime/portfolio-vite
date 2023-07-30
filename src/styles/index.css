@@ -11,19 +11,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  /* margin: 0 20px; */
 
   ::-webkit-scrollbar {
     width: 8px;
-    /* Ancho de la barra de desplazamiento */
     background-color: #52525952;
-    /* background-color: transparent; */
   }
 
   ::-webkit-scrollbar-thumb {
     background-color: #1e1e20;
     border-radius: 100px;
-    /* background-color: transparent; */
   }
 }
 

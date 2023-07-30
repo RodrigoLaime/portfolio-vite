@@ -2,19 +2,16 @@ import React from 'react'
 import '../styles/main.css'
 import ilustracion from '../img/undraw_programming_re_kg9v.svg'
 import ilustracion2 from '../img/undraw_progressive_app_m-9-ms (1).svg'
+import SectionTols from '../components/SectionTools'
 
 const Main = () => {
   return (
     <main className='main'>
+
       <section className='container-main--intro'>
-        <h1>INNOVATIVE DESING</h1>
+        <h1 className='knockout'>INNOVATIVE DESING</h1>
       </section>
-      {/* <section className='container-intro-main' id='main-about'>
-        <div>
-          <h2>learning about me</h2>
-          <h3>Web Developer</h3>
-        </div>
-      </section> */}
+
       <section className='container-about-main'>
 
         <article className='main-img'>
@@ -59,7 +56,10 @@ const Main = () => {
 
       </section>
 
-      {/* <section className='pepe'></section> */}
+      <section>
+        <SectionTols />
+      </section>
+
     </main>
   )
 }

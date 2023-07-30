@@ -1,0 +1,36 @@
+.tols-component{
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+    z-index: -1;
+}
+.tols-component h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.tols-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+.container-tols{
+    position: relative;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 18px 22px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in;
+}
+.tols-icon{
+    color: aqua;
+    font-size: 1.8rem;
+    padding-right: 20px;
+}
+.tols-text p{
+    font-size: 12px;
+    color: #cbcbcb;
+}

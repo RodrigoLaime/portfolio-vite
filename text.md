@@ -36,3 +36,7 @@ Puedes ajustar el valor de puntoDeDivision según tus necesidades para dividir e
 
 
 
+## configrar tailwindcss
+npm install tailwindcss
+npx tailwindcss init
+npm i postcss@latest autoprefixer@latest
