@@ -6,7 +6,7 @@
 }
 .tols-component h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     padding-bottom: 50px;
 }
@@ -18,17 +18,17 @@
 }
 .container-tols{
     position: relative;
-    width: 250px;
+    width: 155px;
     display: flex;
     align-items: center;
-    padding: 18px 22px;
+    padding: 8px 14px;
     border: 2px solid transparent;
     transition: 0.3s ease-in;
 }
 .tols-icon{
     color: aqua;
     font-size: 1.8rem;
-    padding-right: 20px;
+    padding-right: 14px;
 }
 .tols-text p{
     font-size: 12px;

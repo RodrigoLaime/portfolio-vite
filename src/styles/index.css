@@ -4,7 +4,6 @@
 
   color: rgba(255, 255, 255, 0.87);
   background-color: #1e1e20;
-  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,11 +13,11 @@
 
   ::-webkit-scrollbar {
     width: 8px;
-    background-color: #52525952;
-  }
-
-  ::-webkit-scrollbar-thumb {
     background-color: #1e1e20;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color:#3f3d56;
     border-radius: 100px;
   }
 }

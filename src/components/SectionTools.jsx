@@ -36,8 +36,8 @@ const SectionTols = () => {
             icon: (<i class="fa-brands fa-github"></i>),
             title: 'Git Hub',
             description: 'Git Hub',
-            style: { border: '2px solid #22262a' },
-            styletwo: { color: '#22262a' } 
+            style: { border: '2px solid white' },
+            styletwo: { color: 'white' } 
         },
         {
             icon: (<i class="fa-brands fa-square-js"></i>),
@@ -50,7 +50,6 @@ const SectionTols = () => {
     ];
     return (
         <div className='tols-component'>
-            <h2>Tools</h2>
             <div className='tols-div'>
                 {toolsData.map((tool) => (
                     <article className='container-tols' key={tool.title} style={tool.style}>
@@ -59,7 +58,7 @@ const SectionTols = () => {
                     </div>
                     <div className='tols-text'>
                         <h4>{tool.title}</h4>
-                        <p>{tool.description}</p>
+                        {/* <p>{tool.description}</p> */}
                     </div>
                 </article>
                 ))}
