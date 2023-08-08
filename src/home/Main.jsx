@@ -8,13 +8,34 @@ const Main = () => {
   return (
     <main className='main'>
 
-      {/* <section className='container-main--intro'>
-        <h1 className='knockout'>INNOVATIVE DESING</h1>
-      </section> */}
+      <section className='container-main--intro'>
+        <div className='intro'>
+          <a href=''><article>
+            <div className='intro-icon'><i class="fa-brands fa-linkedin-in"></i></div>
+            <h3>LinkedIn</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </article></a>
+          <a href=''><article>
+            <div className='intro-icon'><i class="fa-regular fa-user"></i></div>
+            <h3>Contact me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </article></a>
+          <a href=''><article>
+            <div className='intro-icon'><i class="fa-solid fa-code"></i></div>
+            <h3>Web developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </article></a>
+          <a href=''><article>
+            <div className='intro-icon'><i class="fa-brands fa-github"></i></div>
+            <h3>Git Hub</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </article></a>
+        </div>
+      </section>
 
       <section className='aboutme'>
-        <div className='aboutme-line'></div>
-        <h2>ABOUT ME</h2>
+        <h2>discovering who i am</h2>
+        <p>Passionate and committed developer with a constant search for professional growth.</p>
       </section>
 
       <section className='container-about-main' data-aos="fade-left">
@@ -42,11 +63,12 @@ const Main = () => {
           <h4 className='h4'>About me</h4>
           <h3><span>what</span> I do</h3>
           <ul>
-            <li>Desarrollo de aplicaciones web con React JS</li>
-            <li>Mojoramiendo de la experiencia y performance del sitio y landing pages con Tailwind, HTML, CSS, JavaScript</li>
-            <li>Desarrollo y mejoramiento de sitios web</li>
-            <li>Creacion de REST API´s con Node.js JavaScript</li>
-            <li>Mantenimiento y adaptacion de bases de datoscon las necesidades del usuario</li>
+            <li>Desarrollo de aplicaciones web dinámicas y modernas con React JS</li>
+            <li>Conocimineto de las bases y fundamentos del Lenguage JavaScript</li>
+            <li>Optimizacion de la experiencia y performance del sitio y con Tailwind, HTML, CSS</li>
+            <li>Desarrollo y Mantenimiento de Sitios Web</li>
+            <li>Desarrollar APIs y API CRUD de manera eficiente</li>
+            <li>Mantenimiento y adaptacion de bases de datos segun necesidades del cliente</li>
           </ul>
         </article>
 
@@ -57,8 +79,8 @@ const Main = () => {
       </section>
 
       <section className='aboutme'>
-        <div className='aboutme-line'></div>
-        <h2>TOOLS</h2>
+        <h2>Discovering my Tools</h2>
+        <p>Explore and discover the fundamental tools that I use in my day to day as a developer.</p>
       </section>
 
       <section>

@@ -1,5 +1,5 @@
 .header {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 50px;
   width: 100%;
   max-width: 1250px;
@@ -9,7 +9,8 @@
 
 .container-header {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-direction: column-reverse;
   align-items: center;
   padding: 0 30px;
 }
@@ -128,16 +129,11 @@
   -webkit-text-stroke: 2px black;
 }
 
-@media (min-width: 375px) {
-  .container-button-header {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-}
 
 @media (min-width: 575px) {
+  .header {
+    padding-top: 150px;
+  }
   .header-text h1 {
     font-size: 6vw;
   }
@@ -149,12 +145,10 @@
   .header-text div .header-button .a-header {
     width: 100%;
     max-width: 300px;
+    transition: 0.5s ease;
   }
 
   .header-text div .header-button .a-header:hover {
-    box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
-    -webkit-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
-    -moz-box-shadow: 0px 0px 50px 4px rgba(0, 255, 255, 0.75);
     border: 2px solid #00ffea;
   }
 
@@ -186,17 +180,7 @@
     text-align: left;
   }
 
-  .container-button-header {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: left;
-  }
-
-  .header-text div .header-button .a-header {
-    margin: 15px 0;
-  }
-}
+} 
 
 
 @media (min-width: 1150px) {

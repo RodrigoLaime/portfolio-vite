@@ -31,6 +31,7 @@
   font-size: 20px;
   display: flex;
   align-items: center;
+  font-weight: bold;
 }
 
 .menu-nav .menu-h4 .logo-one {

@@ -5,52 +5,83 @@
   margin: 0 auto;
 }
 
-/* 
-.container-main--intro{
-  padding: 100px 0;
-}
-.container-main--intro h1 {
-  z-index: -1;
-  font-weight: bold;
-  text-align: center;
-  position: relative;
-  font-family: sans-serif;
-  font-size: 12vw;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(120deg, #1e1e20, #ebebf599, #1e1e20);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 4s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+.container-main--intro {
+  padding: 0 50px;
+  /* color: #262534; */
+  /* color: #2f2e41; */
+  /* color: #3f3d56; */
+  /* color: #e6e6e6; */
+  padding: 0 50px;
 }
 
-@keyframes animate {
-  0% {
-    background-position: -500%;
-  }
-  100% {
-    background-position: 500%;
-  }
+.container-main--intro .intro {
+  padding: 40px 0;
+  border-radius: 10px;
+  /* background-color: #3f3d56; */
+  background-color: #252529;
+  /* background-color: #2f2e41; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
 }
- */
- .aboutme {
-  /* background-color: saddlebrown; */
-  padding: 0 30px;
+
+.container-main--intro .intro article {
+  width: 250px;
+  padding: 20px;
   text-align: center;
- }
-.aboutme .aboutme-line {
-  height: 0.5px;
-  background: #00FF00;
-  background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.container-main--intro .intro article:hover {
+  /* background-color: #2f2e41; */
+  /* background-color: #3f3d56; */
+  background-color: rgba(255, 255, 255, 0.039);
+  /* background-color: #262534; */
+}
+
+.container-main--intro .intro article .intro-icon {
+  /* background-color: #262534; */
+  background-color: #1e1e20;
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+}
+
+.container-main--intro .intro article h3 {
+  font-weight: bold;
+}
+
+.container-main--intro .intro article p {
+  color: #ebebf599;
+  font-size: 12px;
+}
+
+/* .container-main--intro .intro article .intro-icon:hover{
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(63,61,86,1);
+  -moz-box-shadow: 5px 5px 10px 0px rgba(63,61,86,1);
+  box-shadow: 5px 5px 10px 0px rgba(63,61,86,1);
+} */
+
+.aboutme {
+  text-align: center;
+  padding: 0 30px;
+  padding-top: 50px;
 }
 
 .aboutme h2 {
-  padding: 30px 0;
   font-size: 2rem;
   font-weight: bold;
-  /* border-top: 2px solid white; */
+}
+
+.aboutme p {
+  color: #ebebf599;
 }
 
 /* Section 2 main ######################################### */
@@ -83,6 +114,7 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
 
 .main-text--about .h4 {
   font-size: 1.2rem;
+  font-weight: bold;
   /* color: #00FFFF; */
   color: #00d3ff
 }
@@ -90,10 +122,11 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
 .main-text--about h3 {
   font-size: 2rem;
   padding: 5px 0;
+  font-weight: bold;
 }
 
 .main-text--about h3 span {
-  border-bottom: 2px solid #00d3ff;
+  border-bottom: 3px solid #00d3ff;
 }
 
 .main-text--about p {
@@ -102,6 +135,7 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
   color: #ebebf599;
   /* text-align: justify; */
 }
+
 .main-text--about ul li {
   font-size: 12px;
   padding-top: 5px;
@@ -171,6 +205,7 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
   .text-about-two {
     margin-right: 0;
     margin-left: auto;
+    text-align: right;
   }
 
   .main-img {

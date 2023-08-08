@@ -15,7 +15,7 @@ const Header = () => {
             <ul>
               <li>Desing technology | Art of design | UI and UX design</li>
             </ul>
-            <div className='container-button-header'>
+            {/*  <div className='container-button-header'>
               <Link className='header-button' to={'/'}>
                 <div className='a-header'>
                   Contact
@@ -26,7 +26,7 @@ const Header = () => {
                   My jobs
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className='container-logo'>
