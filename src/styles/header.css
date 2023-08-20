@@ -2,9 +2,16 @@
   padding-top: 100px;
   padding-bottom: 50px;
   width: 100%;
+  /* min-height: 100vh; */
   max-width: 1250px;
   min-width: 250px;
   margin: 0 auto;
+  display: grid;
+  place-items: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* background: radial-gradient(50% 85.52% at 50.73% -12.86%, #c241ff 6.65%, #1e1e20 100%); */
 }
 
 .container-header {
@@ -71,14 +78,16 @@
   list-style: none;
   padding: 10px 45px;
   text-align: center;
-  color: #ebebf599;
+  /* color: #ebebf599; */
+  /* color: #b3b5ad; */
+  color: #6b6b70;
   font-weight: 600;
 }
 
-.header-text div .header-button {
+/* .header-text div .header-button {
   text-decoration: none;
   color: white
-}
+} */
 
 .header-text div .header-button .a-header {
   background-color: #1e1e20;
@@ -106,20 +115,21 @@
   align-items: center;
   width: 300px;
   height: 300px;
-  z-index: -1;
   position: relative;
+  z-index: -1;
 }
 
-.logo-header .logo-a {
-  /* este agrega sombra a imagenes png
-    filter: drop-shadow(20px, 20px, 20px rgba(255, 255, 255, 0.75)); */
+/* este agrega sombra a imagenes png ESTE ES EL FONDO DE IMAGEN DIFUMINADO
+filter: drop-shadow(20px, 20px, 20px rgba(255, 255, 255, 0.75)); */
+/* .logo-header .logo-a {
   text-shadow: 3px 3px 0px#00ffff00,
     -10px -10px 130px #00FFFF,
     10px 10px 130px #00FFFF;
   font-size: 10rem;
-}
+} */
 
-.logo-header .logo-a-two {
+/* .logo-header .logo-a-two {
+  font-weight: bold;
   position: absolute;
   font-size: 10rem;
   background: #00FF00;
@@ -127,13 +137,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px black;
-}
-
+} */
 
 @media (min-width: 575px) {
   .header {
-    padding-top: 150px;
+    place-items: unset;
+    /* margin-left: 0; */
   }
+
   .header-text h1 {
     font-size: 6vw;
   }
@@ -152,13 +163,13 @@
     border: 2px solid #00ffea;
   }
 
-  .logo-header .logo-a {
+  /* .logo-header .logo-a {
     font-size: 14rem;
   }
 
   .logo-header .logo-a-two {
     font-size: 14rem;
-  }
+  } */
 }
 
 @media (min-width: 775px) {
@@ -179,12 +190,19 @@
     padding: 10px 100px 15px 0px;
     text-align: left;
   }
-
-} 
+  .logo-header {
+    /* margin-right: 0; */
+    width: 350px;
+  }
+  
+}
 
 
 @media (min-width: 1150px) {
   .header-text h1 {
     font-size: 4.2rem;
+  }
+  .logo-header {
+    margin-right: 50px;
   }
 }

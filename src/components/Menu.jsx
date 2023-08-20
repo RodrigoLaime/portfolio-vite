@@ -38,7 +38,7 @@ const Menu = () => {
 
   const changeBackfround = () => {
     // console.log(window.scrollY)
-    if(window.scrollY >= 2){
+    if(window.scrollY >= 1){
       setNavbarMenu(true)
     } else {
       setNavbarMenu(false)
@@ -48,9 +48,9 @@ const Menu = () => {
   window.addEventListener('scroll', changeBackfround);
 
   return (
-    <div id='menuN' className={navbarMenu ? 'container-nav scroll-y' : 'container-nav'}>
+    <div id='menuN' className={navbarMenu ? 'container-nav scroll-y scroll-lock' : 'container-nav'}>
       <nav className='menu-nav' id='menu-nav'>
-        <h4 className='menu-h4'><a className='logo-one' href="/"><i className="fa-solid fa-bolt-lightning"></i></a> PORTAFOLIO</h4>
+        <h4 className='menu-h4'><a className='logo-one' href="/"><i className="fa-solid fa-bolt-lightning"></i></a> Rodri</h4>
 
         <div className='container-icon-menu'>
           <div onClick={click} className='menu1' id='menu1'>
@@ -75,7 +75,7 @@ const Menu = () => {
                   className='menu-a'
                   key={routes.text}
                   style={({ isActive }) => ({
-                    color: isActive ? ' #fffffaa2' : '',
+                    color: isActive ? '#6b6b70' : '',
                   })}
                   to={route.to}>
                   {route.text}
@@ -99,7 +99,7 @@ const Menu = () => {
                   className='a-mobil'
                   key={routes.text}
                   style={({ isActive }) => ({
-                    color: isActive ? ' #ffffffa2' : '',
+                    color: isActive ? '#6b6b70' : '',
                   })}
                   to={route.to}
                 >

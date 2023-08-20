@@ -1,36 +1,47 @@
-.tols-component{
+.tols-component {
     position: relative;
     margin: 0 auto;
     padding: 50px 0;
     z-index: -1;
 }
+
 .tols-component h2 {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 50px;
 }
-.tols-div{
+
+.tols-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
 }
-.container-tols{
+
+.container-tols {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     position: relative;
     width: 155px;
     display: flex;
     align-items: center;
     padding: 8px 14px;
     border: 2px solid transparent;
+    border-radius: 3px;
     transition: 0.3s ease-in;
+    /* background-color: #22252c; */
+    /* background-color: #252529; no*/
+    /* background-color: #e3e3e5; */
 }
-.tols-icon{
-    color: aqua;
+
+.tols-icon {
+    /* color: aqua; */
     font-size: 1.8rem;
     padding-right: 14px;
 }
-.tols-text p{
+
+.tols-text p {
     font-size: 12px;
-    color: #cbcbcb;
+    /* color: #cbcbcb; */
+    color: #6b6b70;
 }

@@ -1,20 +1,23 @@
 .container-nav {
-  padding: 25px 0;
+  padding: 20px 0;
   position: fixed;
   top: 0;
   right: 0;
   width: 100%;
   max-width: 100%;
   min-width: 320px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  z-index: 4;
 }
 
 .scroll-y {
-  background-color: #1e1e20;
+  /* background-color: #1e1e20; */
+  background-color: white;
 }
 
 .scrollY-mobil {
-  background-color: #1e1e20;
+  /* background-color: #1e1e20; */
+  background-color: white;
 }
 
 .menu-nav {
@@ -82,16 +85,18 @@
 .container-mobil ul .menu-li-mobil .a-mobil {
   text-decoration: none;
   font-weight: 600;
-  color: white;
+  /* color: white; */
 }
 
 /* Functions-css #################################################*/
 .desplazar-menu {
   transform: translate(100%, 0);
-  background-color: #1e1e20;
+  /* background-color: #1e1e20; */
+  background-color: white;
   /* backdrop-filter: blur(15px); */
-  z-index: 1;
+  z-index: 4;
 }
+
 
 
 
@@ -122,13 +127,14 @@
     padding: 5px;
   }
 
-  .menu-desktop .menu-ul .menu-li:hover {
+  /* .menu-desktop .menu-ul .menu-li:hover {
     border-bottom: 2px solid #00FFFF;
-  }
+  } */
 
   .menu-desktop .menu-ul .menu-li .menu-a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
+    font-weight: 600;
   }
 }
 

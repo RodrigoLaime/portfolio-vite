@@ -3,6 +3,9 @@ import '../styles/main.css'
 import ilustracion from '../img/undraw_programming_re_kg9v.svg'
 import ilustracion2 from '../img/undraw_progressive_app_m-9-ms (1).svg'
 import SectionTols from '../components/SectionTools'
+import logoCompu from '../img/source-code-animate.svg'
+import logoProgramming from '../img/programming-animate.svg'
+// import logoResponsive from '../img/responsive-animate.svg'
 
 const Main = () => {
   return (
@@ -41,7 +44,8 @@ const Main = () => {
       <section className='container-about-main' data-aos="fade-left">
 
         <article className='main-img'>
-          <img src={ilustracion} className='img' alt="" />
+          <img src={logoProgramming} className='img' alt="" />
+          {/* <img src={ilustracion} className='img' alt="" /> */}
         </article>
         <article className='main-text--about'>
           <h4 className='h4'>About me</h4>
@@ -51,7 +55,7 @@ const Main = () => {
           </p>
           {/* <p>we use creativity to get our clients</p> */}
           <div className='i'>
-            <h4>PROGRAMMING | PASSIONATE | CREATIVE</h4>
+            <h4>programming | passionate | creative</h4>
           </div>
         </article>
 
@@ -73,7 +77,8 @@ const Main = () => {
         </article>
 
         <article className='main-img main-img-two'>
-          <img src={ilustracion2} className='img' alt="" />
+          <img src={logoCompu} className='img' alt="" />
+          {/* <img src={ilustracion2} className='img' alt="" /> */}
         </article>
 
       </section>

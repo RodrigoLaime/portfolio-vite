@@ -4,6 +4,9 @@
  */
 .app {
     font-family: 'Inter', sans-serif;
-    color: #fffff5db;
+    /* color: #fffff5db; */
     overflow-x: hidden;
 }
+/* .scroll-lock {
+    overflow: hidden;
+  } */
