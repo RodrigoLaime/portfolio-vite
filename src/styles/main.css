@@ -115,11 +115,15 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
   margin: 0 auto;
 }
 
+.text-about-two {
+  margin-bottom: 100px;
+}
+
 .main-text--about .h4 {
   font-size: 1.2rem;
   font-weight: bold;
-  /* color: #00FFFF; */
-  color: #00d3ff
+  color: #00FFFF;
+  /* color: #00d3ff */
 }
 
 .main-text--about h3 {
@@ -129,7 +133,7 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
 }
 
 .main-text--about h3 span {
-  border-bottom: 3px solid #00d3ff;
+  border-bottom: 3px solid #00FFFF;
 }
 
 .main-text--about p {
@@ -208,6 +212,7 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
   }
 
   .text-about-two {
+    margin-bottom: 0;
     margin-right: 0;
     margin-left: auto;
     text-align: right;
@@ -230,4 +235,3 @@ background: linear-gradient(299deg, rgba(63,61,86,1) 15%, rgba(38,37,52,1) 100%)
     font-size: 100px;
   }
 }
-

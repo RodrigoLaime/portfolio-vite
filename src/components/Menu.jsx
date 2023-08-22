@@ -38,7 +38,7 @@ const Menu = () => {
 
   const changeBackfround = () => {
     // console.log(window.scrollY)
-    if(window.scrollY >= 1){
+    if (window.scrollY >= 1) {
       setNavbarMenu(true)
     } else {
       setNavbarMenu(false)
@@ -67,22 +67,40 @@ const Menu = () => {
             className='menu-ul'
           >
             {routes.map(route => (
-              <div
-                key={route.text}
-                className='menu-li'
-                id='menu-li'>
-                <NavLink
-                  className='menu-a'
-                  key={routes.text}
-                  style={({ isActive }) => ({
-                    color: isActive ? '#6b6b70' : '',
-                  })}
-                  to={route.to}>
-                  {route.text}
-                </NavLink >
-              </div >
+              route.text === 'Contact' ?
+                <div
+                  key={route.text}
+                  className='module-border-wrap'
+                  id='menu-li'>
+                  <NavLink
+                    className='module'
+                    key={routes.text}
+                    style={({ isActive }) => ({
+                      color: isActive ? '#6b6b70' : '',
+                    })}
+                    to={route.to}>
+                    {route.text}
+                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                  </NavLink >
+                </div >
+                :
+                <div
+                  key={route.text}
+                  className='menu-li'
+                  id='menu-li'>
+                  <NavLink
+                    className='menu-a'
+                    key={routes.text}
+                    style={({ isActive }) => ({
+                      color: isActive ? '#6b6b70' : '',
+                    })}
+                    to={route.to}>
+                    {route.text}
+                  </NavLink >
+                </div >
             ))}
           </ul >
+          {/* <div className='module-border-wrap'><NavLink className='module'>Get Started</NavLink></div> */}
         </section>
 
       </nav >
