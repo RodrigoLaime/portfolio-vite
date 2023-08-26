@@ -6,13 +6,14 @@
   width: 100%;
   max-width: 100%;
   min-width: 320px;
-  transition: 0.3s ease-in-out;
+  /* transition: 0.3s ease-in-out; */
   z-index: 4;
 }
 
 .scroll-y {
   /* background-color: #1e1e20; */
   background-color: white;
+  border-bottom: 2px solid #c7c7ca;
 }
 
 .scrollY-mobil {

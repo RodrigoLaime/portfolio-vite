@@ -43,8 +43,8 @@ const SectionTols = () => {
             icon: (<i class="fa-brands fa-square-js"></i>),
             title: 'JavaScript',
             description: 'JavacScript',
-            // style: { border: '2px solid #dbbb34' },
-            styletwo: { color: '#dbbb34' } 
+            // style: { border: '2px solid #efd71e' },
+            styletwo: { color: '#efd71e' } 
         },
         // Agrega más objetos de datos según sea necesario
     ];

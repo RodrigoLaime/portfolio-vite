@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/main.css'
-import ilustracion from '../img/undraw_programming_re_kg9v.svg'
-import ilustracion2 from '../img/undraw_progressive_app_m-9-ms (1).svg'
+// import ilustracion from '../img/undraw_programming_re_kg9v.svg'
+// import ilustracion2 from '../img/undraw_progressive_app_m-9-ms (1).svg'
 import SectionTols from '../components/SectionTools'
 import logoCompu from '../img/source-code-animate.svg'
 import logoProgramming from '../img/programming-animate.svg'
@@ -16,22 +16,22 @@ const Main = () => {
           <a href=''><article>
             <div className='intro-icon'><i class="fa-brands fa-linkedin-in"></i></div>
             <h3>LinkedIn</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>My career path, achievements and skills at a glance. Connect with me to be aware of job news.</p>
           </article></a>
           <a href=''><article>
             <div className='intro-icon'><i class="fa-regular fa-user"></i></div>
             <h3>Contact me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Collaboration or consultation? Here you can contact me directly.</p>
           </article></a>
           <a href=''><article>
             <div className='intro-icon'><i class="fa-solid fa-code"></i></div>
             <h3>Web developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Transforming ideas into attractive and functional web sites and applications.</p>
           </article></a>
           <a href=''><article>
             <div className='intro-icon'><i class="fa-brands fa-github"></i></div>
             <h3>Git Hub</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <p>Explore my projects and code contributions. Development in action.</p>
           </article></a>
         </div>
       </section>
