@@ -1,0 +1,24 @@
+.jobs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* El grid se ajustará automáticamente */
+    gap: 20px; /* Espacio entre las celdas del grid */
+    padding: 20px;
+}
+
+/* Estilos para las celdas del grid (puedes personalizar esto) */
+.job-item {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.job-item picture img{
+    width: 100px;
+}
+
+/* Media query para ajustar el número de columnas en tamaños de pantalla diferentes */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Cambia el tamaño del grid en pantallas más pequeñas */
+    }
+}

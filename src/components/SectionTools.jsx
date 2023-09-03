@@ -5,42 +5,42 @@ import '../styles/styleComponent/SectionTools.css'
 const SectionTols = () => {
     const toolsData = [
         {
-            icon: (<i class="fa-brands fa-node-js"></i>),
+            icon: (<i className="fa-brands fa-node-js"></i>),
             title: 'Node.js',
             description: 'Node.js',
             // style: { border: '2px solid #5fa04e' },
             styletwo: { color: '#5fa04e' } 
         },
         {
-            icon: (<i class="fa-brands fa-react"></i>),
+            icon: (<i className="fa-brands fa-react"></i>),
             title: 'React',
             description: 'React',
             // style: { border: '2px solid #14cadd' },
             styletwo: { color: '#14cadd' } 
         },
         {
-            icon: (<i class="fa-brands fa-html5"></i>),
+            icon: (<i className="fa-brands fa-html5"></i>),
             title: 'HTML5',
             description: 'HTML5',
             // style: { border: '2px solid #e5532d' },
             styletwo: { color: '#e5532d' } 
         },
         {
-            icon: (<i class="fa-brands fa-css3"></i>),
+            icon: (<i className="fa-brands fa-css3"></i>),
             title: 'CSS3',
             description: 'CSS3',
             // style: { border: '2px solid #39acdd' },
             styletwo: { color: '#39acdd' } 
         },
         {
-            icon: (<i class="fa-brands fa-github"></i>),
+            icon: (<i className="fa-brands fa-github"></i>),
             title: 'Git Hub',
             description: 'Git Hub',
             // style: { border: '2px solid white' },
             styletwo: { color: 'black' } 
         },
         {
-            icon: (<i class="fa-brands fa-square-js"></i>),
+            icon: (<i className="fa-brands fa-square-js"></i>),
             title: 'JavaScript',
             description: 'JavacScript',
             // style: { border: '2px solid #efd71e' },

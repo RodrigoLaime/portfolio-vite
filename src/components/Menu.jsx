@@ -50,8 +50,8 @@ const Menu = () => {
   return (
     <div id='menuN' className={navbarMenu ? 'container-nav scroll-y scroll-lock' : 'container-nav'}>
       <nav className='menu-nav' id='menu-nav'>
-        <h4 className='menu-h4'><a className='logo-one' href="/"><i className="fa-solid fa-bolt-lightning"></i></a> XCRIPT</h4>
-        {/* CODERL, RLDEV y RLCODE, RODSCRIPT */}
+        <h4 className='menu-h4'>{/* <a className='logo-one' href="/"><i className="fa-solid fa-bolt-lightning"></i></a> */} RODSCRIPT</h4>
+        {/* CODERL, RLDEV y RLCODE, RODSCRIPT, XCRIPT */}
 
         <div className='container-icon-menu'>
           <div onClick={click} className='menu1' id='menu1'>
@@ -81,7 +81,7 @@ const Menu = () => {
                     })}
                     to={route.to}>
                     {route.text}
-                    <p><i class="fa-solid fa-arrow-right"></i></p>
+                    <p><i className="fa-solid fa-arrow-right"></i></p>
                   </NavLink >
                 </div >
                 :

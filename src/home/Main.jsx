@@ -5,6 +5,8 @@ import '../styles/main.css'
 import SectionTols from '../components/SectionTools'
 import logoCompu from '../img/source-code-animate.svg'
 import logoProgramming from '../img/programming-animate.svg'
+import Jobs from '../components/Jobs'
+import SectionDescription from '../components/SectionDescription'
 // import logoResponsive from '../img/responsive-animate.svg'
 
 const Main = () => {
@@ -14,32 +16,32 @@ const Main = () => {
       <section className='container-main--intro'>
         <div className='intro'>
           <a href=''><article>
-            <div className='intro-icon'><i class="fa-brands fa-linkedin-in"></i></div>
+            <div className='intro-icon'><i className="fa-brands fa-linkedin-in"></i></div>
             <h3>LinkedIn</h3>
             <p>My career path, achievements and skills at a glance. Connect with me to be aware of job news.</p>
           </article></a>
           <a href=''><article>
-            <div className='intro-icon'><i class="fa-regular fa-user"></i></div>
+            <div className='intro-icon'><i className="fa-regular fa-user"></i></div>
             <h3>Contact me</h3>
             <p>Collaboration or consultation? Here you can contact me directly.</p>
           </article></a>
           <a href=''><article>
-            <div className='intro-icon'><i class="fa-solid fa-code"></i></div>
+            <div className='intro-icon'><i className="fa-solid fa-code"></i></div>
             <h3>Web developer</h3>
             <p>Transforming ideas into attractive and functional web sites and applications.</p>
           </article></a>
           <a href=''><article>
-            <div className='intro-icon'><i class="fa-brands fa-github"></i></div>
+            <div className='intro-icon'><i className="fa-brands fa-github"></i></div>
             <h3>Git Hub</h3>
             <p>Explore my projects and code contributions. Development in action.</p>
           </article></a>
         </div>
       </section>
 
-      <section className='aboutme'>
-        <h2>discovering who i am</h2>
-        <p>Passionate and committed developer with a constant search for professional growth.</p>
-      </section>
+      <SectionDescription
+        title='discovering who i am'
+        description='Passionate and committed developer with a constant search for professional growth.'
+      />
 
       <section className='container-about-main' data-aos="fade-left">
 
@@ -83,16 +85,25 @@ const Main = () => {
 
       </section>
 
-      <section className='aboutme'>
-        <h2>Discovering my Tools</h2>
-        <p>Explore and discover the fundamental tools that I use in my day to day as a developer.</p>
-      </section>
+      <SectionDescription
+        title='Discovering my Tools'
+        description='Explore and discover the fundamental tools that I use in my day to day as a developer.'
+      />
 
       <section>
         <SectionTols />
       </section>
+      <SectionDescription
+        title='Demonstrating My Programming Experience'
+        description='I invite you to explore my solid experience in the world of programming through a selection of outstanding works.'
+      />
 
-    </main>
+
+      <section>
+        <Jobs />
+      </section>
+
+    </main >
   )
 }
 
