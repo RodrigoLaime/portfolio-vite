@@ -41,6 +41,7 @@ const Main = () => {
       <SectionDescription
         title='discovering who i am'
         description='Passionate and committed developer with a constant search for professional growth.'
+        id='aboutme'
       />
 
       <section className='container-about-main' data-aos="fade-left">
